@@ -1,0 +1,67 @@
+body {
+  background-color: #000;
+  color: #fff;
+  font-family: 'Electrolize', cursive;
+}
+
+h1 {
+  margin: 0;
+  font-family: 'Audiowide', sans-serif;
+  font-size: 5em;
+  text-transform: uppercase;
+  /*font-variant: small-caps;*/
+}
+
+h2 {
+
+}
+
+.event-type {
+  margin: 0;
+  /*font-family: 'Electrolize', cursive;*/
+  font-size: 3em;
+  text-transform: uppercase;
+  color: #e4183a;
+}
+
+.subtitle {
+  margin: 0;
+  /*font-family: 'Electrolize', cursive;*/
+  font-size: 2em;
+  text-transform: uppercase;
+}
+
+.date {
+  color: #666;
+  background-color: #ddd;
+  height: 5em;
+  width: 6em;
+  margin: 1em;
+}
+
+.date {
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px; /* future proofing */
+  -khtml-border-radius: 10px; /* for old Konqueror browsers */
+}
+
+.date-month {
+  color: #333;
+  background-color: #9B9999;
+  font-size: 1.5em;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.date-day {
+  color: #333;
+  font-size: 2em;
+  text-align: center;
+}
+
+.location-place {
+  font-size: 1.5em;
+}
+
+/*font-family: 'Audiowide', cursive;*/
