@@ -67,3 +67,58 @@ h2 {
 .times {
   margin-left: 0.5em;
 }
+
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  /*background-color: #f5f5f5;*/
+}
+
+#footer .container {
+  border-top: 1px solid #666;
+}
+
+#footer a {
+  color: #666;
+  text-decoration: none;
+}
+
+.container .text-muted {
+  color: #666;
+  margin: 20px 0;
+}
+
+.schedule tr, .schedule th {
+  border-bottom: 2px solid #000;
+  border-right: 2px solid #000;
+  color: #333;
+  padding: 0.5em;
+  background-color: #e6e6e6;
+}
+
+.schedule td {
+  background-color: #dadada;
+  padding: 0.5em;
+}
+
+.schedule__date {
+  width: 12%;
+}
+
+.schedule__loc {
+  width: 30%;
+}
